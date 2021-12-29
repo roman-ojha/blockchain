@@ -1,0 +1,52 @@
+=> Firstly we will go to:
+    -> https://ethereum.org/en/
+-> in order for us to interact with blockchain the first thing that we will going to need is and ethereum wallet
+    -> https://metamask.io/
+    -> metamask is the one of the most popular wallet
+    -> download metamask extention for the browser
+    -> we will going to create a new wallet
+    -> get secret words:
+    -> after all done we will get the account and copy it and we can use : https://etherscan.io/ to view address and analyze the account in there
+    -> we can create or import new account in it have different addresses
+    -> mnemonic that we have given us access to create multiple account with that same mnemonic
+    -> in a account it also have a private key that we can see in our account:
+        -> if we give somebody else access to private key they will have access to our acount as well
+    -> we have a different type of network:
+        1) Ehereum mainnet is use for the real money
+        2) test network is use for the test purpos whis is not the real money
+        --> Testnets are free and for testing smart contracts mainnet const money and considered "live"
+
+    -> now we are goin to use 'renkeby test network' for right now
+    -> we will go to:  https://faucet.rinkeby.io/
+        -> 'Rinkeby' is one of the two test nets that we're actually going to work with
+        -> other test net that we are going to work with is going to be 'Kovan' 
+        -> Faucet:
+            -> is an application that gives us free test tokens, like free test rinkeby ethereum
+        -> for that we have to twite by posting our account address:
+            Requesting faucet funds into 0x45E39E0d7ecc4750530C941dc88D4f5b4772CAac on the #Rinkeby #Ethereum test network. 
+        -> now we have twitted we have to copy that twitted link and past in https://faucet.rinkeby.io/ and get the ether
+
+    *) Gas:
+        -> Gas is a unit of computational measure. the more computation a trasction uses the more "gas" you have to pay for
+        -> Every trasaction that happens on-chain pays a "gas fee" to node operator
+        -> The amount of "gas" used and how much you pay depends on how "computationally expensive" you trasaction is
+        -> Sending Eth to 1 address would be "cheaper" then sending eath to 1000 address
+
+    -> we can send eth form one account to another account
+
+    -> you can convert the how much gas required to do trasaction using: http://eth-converter.com/
+
+    #) 
+        Gas: Measure of computation use
+        Gas Price: How much it costs per unit of gas
+        Gas Limit: Max amount of gas in a transaction
+
+        Transaction fee: Gas Used * Gas Price
+        ie: 21,000 gas @ 1GWEI per gas = 21,000 GWEI
+
+    -> so when we are making a trasaction  a node has to decide why they wanto to include my transaction into the block and there are tones of people looking to make these transections then the nodes are going to be highly incentivized to transaction that are going to give them a high price that are going to give them a log of money of including that trascation
+    -> Gas price of ethereum fluctuate 
+    => Gas price is based of the "demand" of the blockchain
+    -> The more people want to make transaction the hight the gas price, and therefore the higher the transaction fees.
+    -> https://ethgasstation.info/
+        -> this is the gassstation website where we can get the info about gas and we can see how much fast we want the transaction to be according to that right now that is the price of gwei to do the transection in that paticuler time

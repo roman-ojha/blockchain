@@ -1,0 +1,40 @@
+=> https://github.com/smartcontractkit/full-blockchain-solidity-course-py
+
+
+*) Bitcoin:
+    -> bitcoin was one of the first protocols to use this revolutionary technology called blockchain
+    -> Bitcoin whitepaper was released by the pseudo-anonymous satoshi nakomoto and it oulined how bitcoin could be used to make peer to peer transactions in a decentralized network
+
+*) Ethereum
+    -> few years leter a man named matallic burerin released a white paper describing a new protocol called ethereum which used this same blockchain infrastructure but with an additional feature
+
+*) Smart Contract 
+    -> Smart contract is a self-executing set of instructions that is executed without a third party intermediary
+    -> smart contract are similar to regular traditional contract that people make between each other but instead of writing these contracts down on pen and paper or typing that on the computer it's entirely written in code the terms of the agreement are wirtten in code and automatically executed by the decentralized blockchain network
+
+*) Oracles:
+    -> Oracles are devices that bring data in a blockchain or executed some type of external computation
+
+*) Chainlink:
+    -> Chainlink is a decentralized oracle network that allows you to bring data into your smart contract and do external computation
+
+
+-> Dapp = Smart contarct = Decentralized App
+
+
+*) Feture that blockchain and smart contarct have over our traditional environment:
+    1) Decentralized:
+        -> blockchain are decentralized it means it doesn't have any centralized source that controls the blockchain 
+        -> individuals that make up blockchain are known as node operators and they are the independent individuals running the running the software that connects the whole blockchain together
+    2) Transprency and flexibility:
+        -> everything that's done on a blockchain and all the rules that are made can be seen by everyone 
+    3) Speed and efficiendy:
+    4) Security & Immputability:
+        -> blockchains are immutable which means they can't be changed
+        -> in blockchain f several nodes go down doesn't matter because as long as one node and the entire system is running the data is safe and secure
+        -> Hacking the blockchain is nearly impossible and substantially harder than hacking a centralized entity
+    5) Remove of counterparty risk
+    6) Trust minimized agreements
+
+*) Dao's(Decentralized autonomous organizations):
+    
