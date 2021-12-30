@@ -1,0 +1,107 @@
+*) Hash:
+    -> A unique fixed length string, meant to identify a diece of data. They are created by placing said data into a "hash function"
+    -> https://andersbrownworth.com/blockchain/hash 
+    -> we can put the data and it will give the hash
+    -> there is a 'SHA256" Algorithm
+    -> ethereum uses "Keccak256" Algorightm for right now in 2022
+    -> https://andersbrownworth.com/blockchain
+    -> now in here we will hash 'Block" & "Nonce" & "Data" and get the single hash which represent that
+    -> so if we will put some "Data" and mine then we can see that the value of "Nonce" change
+
+*) Hash algorightm:
+    -> A function that computes data into unique hash
+
+    -> Explanation:
+        -> 000050218861b73dd3693833737cc81675a95786e300afb6ae250a92ff263501
+        -> this is the hash of the data that i have put and get nonce "180783"
+        -> where hash <four_zero>50218861b73dd3693833737cc81675a95786e300afb6ae250a92ff263501
+        -> here while getting 'Nonce" the first four number has to be 4 zero for that algorighm will analyze the "nonce" one by one like first it will test for "Nonce=1" it didn't work and it will test the "Nonce=2" it again didn't work until it will check where hash first four number will not become zero
+
+        -> But ethereum have the different Problem for miners to solve
+        -> Bitcoin have the different Problem for miners to solve
+
+        -> so Nonce is going to the number that thy use to get the solution for the Problem
+        -> So, That's what's happening when blockchain miners are mining they're going throught this process this computationally intensive process of trying to find a "Nonce" That fulfills whatever the problem is 
+
+    -> https://andersbrownworth.com/blockchain/blockchain
+    -> now we have understand about block now we will understand that is blockchain
+    -> in this website all bolck represent the different block
+    -> now here we also have the "prev:", This actually pointing the previous hash of the previous block
+    -> in here first block which has previous of just all all zeros, So the block with the previous of all zeros is going to be known as the genessis block:
+
+    -> Genesis Block:
+        -> The first block in a blockchain
+
+    -> now here in the blockchain the block nonce data and previous hash all go through the hashing algorightm to figure out what the hash is
+    -> now if we will change the data of the previous block it means the hash doesn't have the <first_zero> in this case and it means that previous has of the next block will no have the <first_zero> it means that now if we will chnage the data of one block we have to change the data of every next block to work
+
+    -> now if we will change the data of the blockchain the we have to Re mine every next block
+
+    -> https://andersbrownworth.com/blockchain/distributed
+    -> now in this website we can see how blockchain look's like in decentralize manner
+    -> here we can see there is the peer to peer network where they're all weighted equally
+
+    -> https://andersbrownworth.com/blockchain/tokens
+    -> in this website we have "tx" rather then data where it represent every trasection happening in this block
+
+    -> now if we had change the data of last block of in peerA then it will chnage the hash of that block now "peer B" and "peer C" will calcuated or analyze the hash they have with the "peer A" if it didn't match then:
+        -> if("peer C" && "peer B" have save hash) and ("Peer A" doesn't have the same hash it means ths block has been changed and now "peer A" will not included) Majority wins
+
+    *) Mining:
+        -> The process of inding the "solution" to the blockchain "problem".
+        -> in our example, the "problem" wast a hash that start with four zeros.
+        -> Nodes get paid for mining blocks
+
+    *) Block:
+        -> A list of transactions mined together
+
+    *) Decentralized:
+        -> Having no single point of authority
+
+    *) nonce:
+        -> A "number used once" to find the "solution" to the blockchain problem
+        -> nonce actually used for number of different reason
+        -> it's also used to define the transaction number for an accoutn/address.
+
+    -> https://andersbrownworth.com/blockchain/public-private-keys/keys
+    -> Private Key:
+        -> Only Known to the key holder, it's used to "sign" transactions
+    -> here in this website we can write any private key and the algorightm, For ethereum , Bitcoin it will use "Elliptic cureve digital signature algorightm" will create a public key
+    -> https://andersbrownworth.com/blockchain/public-private-keys/signatures
+        -> so in this website we are sending message and putting some private key and after sign in we will get the message signature 
+    -> so in varify tab any body can varify that the signature is yours 
+
+    -> and we know in metamask we have used menemonic phrase which allowes us to easily get these different private keys
+
+    *) Public Key:
+        -> is derived from your private key. Anyone can "see" it, and use it to varify that a transaction came from you.
+
+    *) Signing a transaction:
+        -> A "one way" process. Someone with a private key signs a transaction by their private key being hashed with their transaction data.
+        -> Anyone can then varify this new transaction hash with you public key.
+
+    Private key (create)> Public Key > Address
+
+    *) Consensus:
+        -> Consensur is the mechanism used to agree on the stat of a blockchain
+        -> Consensus protocal in a blockchain can be broken down into two picese
+            1) Chain selection
+            2) Sybil Resistance 
+                *) Proof of work:
+                -> we went throught that blockchain example and we did that mining feature this this is what's known as proof of work 
+                -> proof of work use a lot of energy
+                *) proof of stake
+                -> Proof os stake nodes put acollateral as a sybil resistance mechanism
+                -> unlike proof of work which every node is recing to be the first one to find the block in proof of stake node are actually randomly chosen to propose the new block and the rest of the validators will validate if that node has propose the block honestly
+
+    => the attract that happen in blockchain network:
+        1) Sybil Attack
+        2) 51% Attack
+
+    -> in this systems miners are called validators they are no longer binding anything they're just validating other nodes 
+
+    *) scalability:
+        1) Layer 1
+            -> Base layer blockchain implementation
+        2) Layer 2: 
+            -> Any application build on top of a layer 2
