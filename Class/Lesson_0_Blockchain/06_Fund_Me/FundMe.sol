@@ -7,6 +7,7 @@ pragma solidity >=0.6.6 <0.9.0;
 // here we are importing from @chainlink/contract npm package
 // https://github.com/smartcontractkit/chainlink
 
+// if you don't want to import chainlink then we can use interface
 interface AggregatorV3Interface {
     // solidity doesn't natively understand how to interact with another contract we have to tell solidity that functions can be called on another contract this is where interfaces are actually going to come in
     // similar to structs what we can do with interfaces is to define new type
@@ -106,9 +107,27 @@ contract FundMe {
             ,
 
         ) = priceFeed.latestRoundData();
-        return uint256(answer);
+        // return uint256(answer );
         // here we are chainging type of data from 'int256' to 'uint256' and returning it
         // the value for ETH/USD for this date is:
         // 248255877123 -> $ 2,482.55877123
+        return uint256(answer * 10000000000);
+        // into 18 decimal places
+    }
+
+    // this function will convert the value that other sent to USD equivelent
+    function getConversionRate(uint256 ethAmount)
+        public
+        view
+        returns (uint256)
+    {
+        uint256 ethPrice = getPrice();
+        // for 1 gwei -> 1000000000 wei
+        uint256 ethAmountInUsd = (ethPrice * ethAmount) / 1000000000000000000;
+        return ethAmountInUsd;
+        // in this data it will return : 2544894899860
+        // 0.000002544894899860
     }
 }
+
+// https://youtu.be/M576WGiDBdQ?t=10699
