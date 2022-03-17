@@ -7,7 +7,7 @@ pragma solidity >=0.6.0 <0.9.0;
 // pragma solidity ^0.6.0;
 // this will allow us to use any 0.6 version, bellow 0.7.0 and above 0.6.0
 
-contract Test {
+contract SimpleStorage {
     // types: =============================================================
     // this will get initialized to index 0 contract storage
     uint256 public favoriteNumber = 5;
