@@ -1,0 +1,20 @@
+-> Every time we deploy smart contract to any environment we have to pay some ether 
+
+-> We can use different type of Environment
+    a) Javascript VM
+        -> for testing purposes and for not to use test net metamask ether
+    b) injected Web3
+        -> To connect metamask as the ether transaction
+    c) Web3 Provider
+        -> If we want to use our own web3 provider 
+
+*) Deploy Smart Contract to the real network not in Javascript VM
+    -> for that we have to use 'injected Web3' Environment
+    -> and let's say remix ide will automatically try to connect to the metamask account and after we have connected to the metamask account we can choose our network as well
+    -> like : Ethereum Mainnet, Rinkeby Test Network
+    -> if we will deploy the contract then here we are making a transaction on blockchain to create contract 
+    -> after we had deploy now if we will try to do transaction or to call the setter function in the smart contract case we have to again pay some ether
+
+
+*) EVM
+    -> All the solidity code will compile down to EVM(Ethereum Virtual Machine)
