@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: GPL-3.0
 // <SPDX-License-Identifier>: MIT
+// <SPDX-License-Identifier>: UNLICENSED
 
 pragma solidity >=0.6.0 <0.9.0;
 

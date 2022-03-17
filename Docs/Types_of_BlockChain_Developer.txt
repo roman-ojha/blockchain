@@ -1,0 +1,12 @@
+*)Types of Blockchain Developers
+    ->Blockchain developers are of two kinds:
+        -> a) Blockchain software developer
+        -> b) Core blockchain developer
+    -> They both are involved in blockchain development but have different responsibilities. We’ll take a look at them to get a brief idea of what they do.
+
+    *) Blockchain Software
+        -> Blockchain software developers build applications based on blockchain architecture and protocol. Their apps run on the blockchain too. You can compare them with web developers, who use the products of a web architect (protocol and design) to develop web applications. 
+        -> Blockchain software developers create Dapps or decentralized applications. They are responsible for the front-end as well as back-end development of Dapps. They also supervise the stack that runs the Dapps. 
+
+    *) Core Blockchain
+        -> These developers focus on the architecture development of a blockchain system. They design their consensus protocol and make most of the vital decisions related to blockchain. They supervise the network and design the architecture of the same. Core blockchain developers are responsible for the security of their blockchain network as well. 
