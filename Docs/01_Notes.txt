@@ -1,0 +1,5 @@
+*) Short Term:
+    -> EVM - Ethereum Virtual Machine
+    -> ABI - Application Binary Interface
+    -> Opcode - Operation Code
+    -> RPC - Remote Procedure Calls
