@@ -1,0 +1,3 @@
+*) Decentralized Apps(Dapps)
+    -> Decentralized applications use Smart Contract and Front End application
+    -> Decentralized applications (dApps) are digital applications or programs that exist and run on a blockchain or peer-to-peer (P2P) network of computers instead of a single computer. DApps (also called "dapps") are outside the purview and control of a single authority. DApps—which are often built on the Ethereum platform—can be developed for a variety of purposes including gaming, finance, and social media.

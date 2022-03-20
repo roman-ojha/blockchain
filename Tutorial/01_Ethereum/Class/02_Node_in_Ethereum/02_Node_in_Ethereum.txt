@@ -11,3 +11,6 @@
         3) Archive Node
             -> Store everything kept in the full node and build an archive of historical data
             -> Requires terabytes of disk space.
+    -> Each node has the following:
+        a) Current Stat all Smart Contracts.
+        b) History of both transaction and smart contract.
