@@ -1,0 +1,13 @@
+*) Ethereum Accounts:
+    -> An Ethereum account is an entity with an ether(ETH) balance that can send or receive transaction on Ethereum
+    -> Type of Ethereum Accounts:
+        a) Externally Owned Account(EOA)
+            -> When we will create Wallet
+            -> use Private Key to use Account
+            -> to Send transaction, Receive Transaction, For Smart Contract
+        b) Contract Account(CA)
+            -> Controlled by contract code.
+            -> it will be created when smart contract code will deploy on ethereum blockchain network
+
+*) Smart Contract
+    -> Smart contract is a program that run on ethereum blockchain network
