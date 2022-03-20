@@ -1,0 +1,12 @@
+*) Ethereum Gas
+    -> On the Ethereum blockchain, gas refers to the cost necessary to perform a transaction on the network.
+    -> Miners set the price of gas based on supply and demand for the computational power of the network needed to process smart contracts and other transactions
+    -> 10 * 3 - 6 = ?
+        -> Multiplication (*) = 5 gas
+        -> Subtraction (-) = 3 gas
+        -> Equal to (=) = 3 gas
+        -> total gas -> 5 + 3 + 3 = 11 gas
+    -> Gas Cost: https://github.com/djrtwo/evm-opcode-gas-costs
+    -> Some important point to note:
+        a) Any transaction that modifies the blockchain costs gas.
+        a) The user that generate the transaction pays for the gas

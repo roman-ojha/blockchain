@@ -1,0 +1,3 @@
+*) Ethereum Virtual Machine
+    -> When we try to run Dapps, rather then running on your system. it will run on Ethereum virtual machine
+    -> 06_Ethereum_Virtual_Machine(EVM)
