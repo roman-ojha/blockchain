@@ -1,0 +1,8 @@
+*) Initial Coin Offering(ICO)
+    -> An initial coin offering (ICO) is the cryptocurrency industry's equivalent to an initial public offering (IPO). A company seeking to raise money to create a new coin, app, or service can launch an ICO as a way to raise funds.
+    -> Interested investors can buy into an initial coin offering to receive a new cryptocurrency token issued by the company. This token may have some utility related to the product or service that the company is offering, or it may just represent a stake in the company or project.
+        -> Initial coin offerings are a popular way to raise funds for products and services usually related to cryptocurrency.
+        -> ICOs are similar to initial public offerings, but coins issued in an ICO can also have utility for a software service or product.
+        ->  Some ICOs have yielded massive returns for investors. Numerous others have turned out to be fraudulent or have performed extremely poorly.
+        -> To participate in an ICO, you usually need to first purchase a more established digital currency, plus have a basic understanding of cryptocurrency wallets and exchanges.
+        -> ICOs are, for the most part, completely unregulated, so investors must exercise a high degree of caution and diligence when researching and investing in ICOs.
