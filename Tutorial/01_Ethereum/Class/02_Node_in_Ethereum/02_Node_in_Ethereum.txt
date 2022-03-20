@@ -1,0 +1,13 @@
+*) Ethereum Node:
+    -> Ethereum is a distributed network of computers running software (known as nodes) that can verify blocks and transaction data. You need an application, known as a client, on your computer to "run" a node.
+    -> Types of Node:
+        1) Full Node
+            -> Locally store a copy of the entire blockchain
+            -> Verified and validate all the block
+        2) Light Node
+            -> Stores only the block header. Depends on full node
+            -> header is like a index/context in book
+            -> For Low capacity devices which cannot afford to store the gigabytes of data
+        3) Archive Node
+            -> Store everything kept in the full node and build an archive of historical data
+            -> Requires terabytes of disk space.

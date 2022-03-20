@@ -1,0 +1,12 @@
+*) Ethereum:
+    => Ethereum is an open-source blockchain-based platform.
+    -> Distributed immutable ledger
+    -> Ethereum is a decentralized, open-source blockchain with smart contract functionality
+    -> Founder of Ethereum is Vitalik Buterin
+    -> Previously on blockchain it only use to have transaction, data. but Ethereum make it possible to store programs on Blockchain
+    -> because of that we are able to make Decentralized application
+    => Blockchain -> Technology
+    => Waves, Bitcoin, Ethereum -> Protocol/Coin
+    => Ethereum gives a token because of that we are able to run programs, but bitcoin doesn't provides us token
+    => for Bitcoin we have bitcoin for cryptocurrency
+    -> for Ethereum there is Ether
