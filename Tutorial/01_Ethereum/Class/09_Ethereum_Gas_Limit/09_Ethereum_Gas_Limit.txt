@@ -1,0 +1,18 @@
+*) Ethereum Gas Limit:
+    -> It is the maximum gas the transaction ca consume.
+    -> Set by the sender
+        -> Let say A want to send B 2 ETH. So what will be the total fees A that has to pay?
+                -> A sets the gas price per unit = 100 gwei
+            -> CASE 1 : When transaction gas limit is 21,000 units.
+                -> Transaction gas limit = 21,000 units
+                -> Total fee will be: Gas units(limit) * Gas price per unit
+                -> Total fee will be: 21,000 * 100 = 210,0000 gwei or 0.0021 ETH
+            -> CASE 2: When gas transaction limit < 21000 units
+                -> Transaction gas limit = 20,000 units
+                -> Transaction Fail
+            -> CASE 3: When gas transaction limit > 21000 units.
+                -> Transaction gas limit = 22,000 units
+                -> 22,000 - 21000 = 1000 will be returned
+
+    Q) What is the use of Gas Limit?
+        -> To restrict hacker or other user who try to perform operation or transaction more then the gas limit

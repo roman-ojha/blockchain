@@ -1,0 +1,14 @@
+=> For Petrol - 10 liters
+    -> Total Price = ?
+    -> 1 liter = Rs. 5
+    -> Therefore, Total Price = 10*5 = RS. 50
+
+=> Ethereum Gas Price:
+    *) Gas Price:
+        -> it is the amount the sender wants to pay per unit of gas to get the transaction mined. gasPrice is set by the sender
+        -> Gas prices are denoted is gwei. (1 Gwei = 10^-9 ETH)
+        -> it's depend on the send that how much gas sender want to pay for the operation it could be:
+            -> 1 Gas price = 10 gwei
+            -> 1 Gas price = 100 gwei
+            -> 1 Gas price = 1000 gwei ETC......
+        -> But, 😁😁😁 The higher the gas price the faster the transaction will be mined. it just like the transaction in Bitcoin
