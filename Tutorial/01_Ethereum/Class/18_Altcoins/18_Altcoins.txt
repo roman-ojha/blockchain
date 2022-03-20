@@ -1,0 +1,8 @@
+*) Alt Coins:
+    -> all the cryptocurrency other then bitcoins
+        -> Litcoin
+        -> THETA
+        -> Tether
+        -> Chainlink
+        -> Binance coin
+        -> Cardano

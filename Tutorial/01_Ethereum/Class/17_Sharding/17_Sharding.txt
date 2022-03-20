@@ -1,0 +1,9 @@
+*) Sharding
+    -> https://youtu.be/jVZarNPsW9Y?list=PLgPmWS2dQHW9FmqNqug3M5ooNuRqP-alu
+    -> https://education.district0x.io/general-topics/understanding-ethereum/ethereum-sharding-explained/
+
+    -> Major benefits:
+        a) Transaction per second increase.
+        b) Powerful and expensive computer will not be needed
+        c) More validators will join
+        d) Energy consumption will reduce.
