@@ -1,0 +1,4 @@
+*) Hard Fork
+    -> During a hard fork, software implementing a protocol and its mining procedures in upgraded.
+    -> Once a user upgrades their software, that version rejects all transactions from older software, effectively creating a new branch of the blockchain.
+    -> However, those user who retain the old software continue to process transactions.

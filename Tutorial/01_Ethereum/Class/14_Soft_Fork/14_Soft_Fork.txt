@@ -1,0 +1,4 @@
+*) Soft Fork:
+    -> Soft fork are a change to the protocol, but the end product remain unchanged.
+    -> A soft fork is a backward-compatible upgrade, meaning that the upgraded nodes can still communicate with the non-upgraded ones.
+    -> Old nodes(not upgraded nodes) could still validate blocks and transactions(the formatting don't break the rules), but they just wouldn't understand them
