@@ -1,0 +1,4 @@
+*) Decentralized Autonomous Organization(DAOs)
+    -> DAO is the program written in smart contract
+    -> The DAO was an organization created by developers to automate decisions and facilitate cryptocurrency transactions.
+    -> In June 2016, due to programming errors and attack vectors, hackers attacked the DAO, accessing 3.6 million ETH.
