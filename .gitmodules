@@ -1,0 +1,6 @@
+[submodule "Solidity"]
+	path = Solidity
+	url = git@github.com:roman-ojha/solidity.git
+[submodule "Truffle"]
+	path = Truffle
+	url = git@github.com:roman-ojha/truffle.git
