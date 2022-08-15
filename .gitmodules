@@ -4,3 +4,9 @@
 [submodule "Truffle"]
 	path = Truffle
 	url = git@github.com:roman-ojha/truffle.git
+[submodule "Tutorial/02_IPFS"]
+	path = Tutorial/02_IPFS
+	url = git@github.com:roman-ojha/ipfs.git
+[submodule "Tutorial/03_NFT"]
+	path = Tutorial/03_NFT
+	url = git@github.com:roman-ojha/nft.git
