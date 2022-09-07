@@ -10,3 +10,6 @@
 [submodule "Tutorial/03_NFT"]
 	path = Tutorial/03_NFT
 	url = git@github.com:roman-ojha/nft.git
+[submodule "Hardhat"]
+	path = Hardhat
+	url = git@github.com:roman-ojha/hardhat.git
