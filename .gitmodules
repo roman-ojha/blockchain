@@ -13,3 +13,6 @@
 [submodule "Hardhat"]
 	path = Hardhat
 	url = git@github.com:roman-ojha/hardhat.git
+[submodule "Web3/web3.js"]
+	path = Web3/web3.js
+	url = git@github.com:roman-ojha/web3.js.git
