@@ -16,3 +16,6 @@
 [submodule "Web3/web3.js"]
 	path = Web3/web3.js
 	url = git@github.com:roman-ojha/web3.js.git
+[submodule "Web3/ethers.js"]
+	path = Web3/ethers.js
+	url = git@github.com:roman-ojha/ethers.js.git
