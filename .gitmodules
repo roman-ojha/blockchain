@@ -19,3 +19,6 @@
 [submodule "Web3/ethers.js"]
 	path = Web3/ethers.js
 	url = git@github.com:roman-ojha/ethers.js.git
+[submodule "Tutorial/00_Tutorial_Projects/nft_marketplace"]
+	path = Tutorial/00_Tutorial_Projects/nft_marketplace
+	url = git@github.com:roman-ojha/nft_marketplace.git
