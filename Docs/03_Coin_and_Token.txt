@@ -1,0 +1,22 @@
+*) Coin:
+    => coin follow certain protocol
+    => Protocol
+        -> Set of rules:
+            -> how participants over the network will communicate
+            -> How authentication over the network will take place
+            -> How mining will happen and how reward will be given to the miners
+    => and Every Protocol provide certain amount of Coin
+    => On Ethereum we have Ether as coin
+    => On Bitcoin we have Bitcoin as coin
+    
+*) Token:
+    => Token are a type of cryptocurrency that represents an asset or specific use and resides on their blockchain
+    => Token are base on already build blockchain
+    => Ex:
+        -> ERC20, ERC271 are Token based on Ethereum blockchain
+    => FT(Fungible Token):
+        -> Represents of and asset on a blockchain that is interchangeable
+        -> EX: we can create our own cryptocurrency because currency are interchangeable
+    => NFT(Non-Fungible Token):
+        -> it is a cryptographic assets on a blockchain with unique identification codes and metadata that distinguish them from each other.
+        -> they cannot be traded or exchanged at equivalency.
