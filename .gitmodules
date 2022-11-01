@@ -22,3 +22,6 @@
 [submodule "Tutorial/00_Tutorial_Projects/nft_marketplace"]
 	path = Tutorial/00_Tutorial_Projects/nft_marketplace
 	url = git@github.com:roman-ojha/nft_marketplace.git
+[submodule "Example/Web3-Transaction-Dapp-example"]
+	path = Example/Web3-Transaction-Dapp-example
+	url = git@github.com:roman-ojha/web3-transaction-dapp-example.git
